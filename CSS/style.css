@@ -1,0 +1,111 @@
+
+/* Navgation bar */ 
+
+.Navbar {
+
+box-sizing: border-box;
+
+position: absolute;
+margin-left: 0.5%;
+width: 1208px;
+height: 65px;
+left: 25px;
+top: 55px;
+
+background: white;
+border: 1px solid black;
+border-radius: 10px;
+}
+
+
+
+
+/* Navigation bar */
+
+.Nav {
+    margin-right: 2%;
+    margin-top: 0.6%;
+}
+
+.topnav a {
+    display: inline-flex;
+    float: right; 
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font: 20px Arial;
+    
+  }
+  
+  .topnav a:hover {
+    text-decoration: underline black;
+  }
+
+
+  .Navbut a {
+    display: inline-flex;
+    float: right;
+    color: white;
+    padding-bottom: 5px;
+    text-decoration: none;
+    font: 20px Arial;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 0.8%;
+    margin-left: 0.8%;
+    padding-top: 5px;
+    Padding-left: 16px;
+    padding-right: 14px; 
+
+  }
+  
+  .Navbut a:hover {
+    background-color: black;
+    border-radius: 10px;
+    position: relative;
+    color: white;
+
+
+  }
+  
+  .Navbut a.active {
+    color: black;
+    border-radius: 10px;
+    
+  }
+
+/*Hero image*/
+
+.center {
+display: block;
+margin-left: 7%;
+margin-right: 10%;
+
+}
+
+
+
+/*Footer*/
+
+.footer {
+
+box-sizing: border-box;
+background: white;
+border: 1px solid black;
+border-radius: 10px;
+width: 1208px;
+height: 65px;
+left: 25px;
+top: 55px;
+margin-left: 2%;
+margin-bottom: 1%;
+margin-top:50%;
+
+}
+
+.text {
+margin-left: 50px;
+margin-top: 25px;
+font: 15px Arial;
+}
